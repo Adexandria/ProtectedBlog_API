@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zHTvtouHumtDwV+oJVvILEZeE92fdTjhYikMWaLWbXNdXapHw1YsrEHJPa3BmTuBpAs792nQ43I3DzgGFt/ZOg==",
+  "dgSpecHash": "Y045gSCjWdTLVedS9JJvQGlbRA27yIfxVavA6Z8ael58SQOa3+ZtqfGFjqep23qf1wDo4FtuJQsqibDveO3PaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP 650\\source\\repos\\AuthenApp\\AuthenApp\\AuthenApp.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.13\\microsoft.aspnetcore.authentication.facebook.3.1.13.nupkg.sha512",
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.3\\microsoft.aspnetcore.cryptography.keyderivation.5.0.3.nupkg.sha512",
     "C:\\Users\\HP 650\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",

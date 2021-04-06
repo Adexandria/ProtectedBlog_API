@@ -13,6 +13,7 @@
       "commandName": "IISExpress",
       "launchUrl": "weatherforecast",
       "environmentVariables": {
+        "facebook_url": "www.facebook.com/v10.0/dialog/oauth?",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },

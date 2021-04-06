@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using AuthenApp.BlogServices;
 using AuthenApp.Services;
 using AuthenApp.UserModel;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -39,17 +40,8 @@ namespace AuthenApp
             {
                 opts.UseSqlServer(Configuration.GetConnectionString("AuthenApp")).EnableSensitiveDataLogging();
             });
-            services.AddIdentity<SignUp, IdentityRole>().AddEntityFrameworkStores<IdentityDb>().AddSignInManager().AddDefaultTokenProviders();
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
-            {
-                opt.LoginPath = PathString.Empty;
-                opt.Events.OnSigningIn = ctx =>
-                {
-                    ctx.Response.StatusCode = 401;
-                    return Task.CompletedTask;
-                };
-
-            });        
+           
+            services.AddIdentity<SignUp, IdentityRole>().AddEntityFrameworkStores<IdentityDb>().AddSignInManager().AddDefaultTokenProviders();     
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<IdentityOptions>(options =>
             {
@@ -72,8 +64,10 @@ namespace AuthenApp
 
                 options.LoginPath = PathString.Empty;
                 options.AccessDeniedPath = PathString.Empty;
-                options.SlidingExpiration = true;
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
             });
+
+            services.AddScoped<IBlog, Blogrepos>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -83,6 +77,7 @@ namespace AuthenApp
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();

@@ -1,4 +1,5 @@
-﻿using AuthenApp.UserModel;
+﻿using AuthenApp.BlogModel;
+using AuthenApp.UserModel;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,6 +15,7 @@ namespace AuthenApp.Services
         {
            
         }
+        public DbSet<Blog> BlogsP { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

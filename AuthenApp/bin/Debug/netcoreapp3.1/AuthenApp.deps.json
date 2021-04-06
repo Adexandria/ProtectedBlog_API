@@ -27,6 +27,7 @@
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "EntityFramework": "6.4.4",
+          "Microsoft.AspNetCore.Authentication.Facebook": "3.1.13",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.3",
           "Microsoft.EntityFrameworkCore": "5.0.3",
@@ -396,6 +397,17 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.13": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "3.1.13.0",
+            "fileVersion": "3.100.1321.11713"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.3": {
@@ -3385,6 +3397,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edMjpn7Kgbg2TlEmiR2sB7pO7Pyqe+xhab8JMUI9q7k2oG+/DW11FxWGFYu2exGsQi+6imXyo08N2W9hJ52Vnw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.13",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.3.1.13.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.3": {
       "type": "package",

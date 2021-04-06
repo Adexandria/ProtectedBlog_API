@@ -73,7 +73,8 @@ C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenA
 C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.pdb
 C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.genruntimeconfig.cache
 C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.csproj.CoreCompileInputs.cache
-C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.csprojAssemblyReference.cache
+C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.csproj.CoreCompileInputs.cache
+C:\Users\HP 650\source\repos\AuthenApp\AuthenApp\obj\Debug\netcoreapp3.1\AuthenApp.MvcApplicationPartsAssemblyInfo.cache

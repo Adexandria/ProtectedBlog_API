@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AuthenApp.Controllers
 {
     [ApiController]
-    [Route("api/blog/users")]
+    [Route("api/blog/authenticate")]
     [AllowAnonymous]
     public class UserController : ControllerBase
     {
